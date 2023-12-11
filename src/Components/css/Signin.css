@@ -1,0 +1,56 @@
+.main{
+  background: url("../../assets/walmart.jpg") no-repeat  center;
+  width: 100%;
+  height: 80vh;
+  object-fit:cover;
+}
+  .container1 {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 80vh;
+    text-align: center;
+  }
+
+  
+  .container1 h1 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 8px 0;
+
+  }
+  
+  .container1 label input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .but {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;;
+  }
+  
+  .but:hover {
+    background-color: #0056b3;
+  }
+  

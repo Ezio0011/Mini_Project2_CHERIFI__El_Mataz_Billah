@@ -1,0 +1,55 @@
+.contactpage {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  .contactpage input,
+  textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: rgba(0, 0, 0, 0.393) 1px solid;
+  }
+  
+  .contactpage button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  .contactpage button:hover { 
+    background-color: #025fc3;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    color: #007bff;
+    text-decoration: none;
+    transition: all ease-in 53ms;
+
+  }
+  
+  .social-icons a:hover {
+    color: #014995;
+    font-size: 38px;
+    margin-bottom: -20px;
+  }
+  
